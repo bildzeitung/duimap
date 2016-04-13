@@ -19,6 +19,9 @@ setup(
     ],
     vcversioner={
         'root': os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'),
-        'version_module_paths': ['duimap/_version.py'],
-    }
+        'version_module_paths': ['_version.py'],
+    },
+    entry_points={
+        'console_scripts': ['duimap=duimap:main']
+    },
 )

@@ -1,3 +1,2 @@
 -e ./duimap
 flake8
-vcversioner
