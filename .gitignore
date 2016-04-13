@@ -63,3 +63,5 @@ target/
 
 # DMK
 venv
+_version.py
+version.txt
