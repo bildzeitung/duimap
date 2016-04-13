@@ -10,6 +10,9 @@ venv/bin/activate: requirements.txt
 	venv/bin/pip install -Ur requirements.txt
 	touch venv/bin/activate
 
+update: venv
+	venv/bin/pip install -Ur requirements.txt
+
 all: venv
 
 clean:
